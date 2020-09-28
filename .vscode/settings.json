@@ -1,0 +1,22 @@
+{
+    "editor.rulers": [160],
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.pythonPath": "${workspaceFolder}/venv/bin/python3.8",
+    "python.autoComplete.extraPaths":[
+        "${workspaceFolder}/venv/lib/python3.8",
+        "${workspaceFolder}/venv/lib/python3.8/site-packages"
+    ],
+     "files.insertFinalNewline": true,
+     "files.exclude": {
+         "**/.git": true,
+         "**/.DS_Store": true,
+         ".vscode": true,
+         "**/__pycache__": true,
+         "**/**/*.pyc": true,
+         "**/venv": true,
+   },
+   "python.formatting.provider": "autopep8",
+"git.ignoreLimitWarning": true,
+"python.linting.enabled": true
+}
